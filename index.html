@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container" id="quiz">
+        <div id="question" class="question"></div>
+        <div class="choices">
+            <button class="choice" id="choice1" onclick="selectAnswer('choice1')"></button>
+            <button class="choice" id="choice2" onclick="selectAnswer('choice2')"></button>
+            <button class="choice" id="choice3" onclick="selectAnswer('choice3')"></button>
+            <button class="choice" id="choice4" onclick="selectAnswer('choice4')"></button>
+        </div>
+        <button id="next-button" class="next-button" onclick="nextQuestion()">Next</button>
+        <div id="result" class="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
