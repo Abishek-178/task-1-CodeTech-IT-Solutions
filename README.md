@@ -1,3 +1,10 @@
+Name: Abishek
+Company:CODTECH IT SOLUTIONS
+ID:CT08DS1678
+Domain:Front End Web Development
+Duration:June To July 2024
+Mentor:MUZZAMIL AHEMED
+
 Project Overview: Quiz Application
 Introduction
 The Quiz Application is a dynamic web-based tool designed to create, manage, and participate in quizzes. It aims to provide an engaging and interactive platform for users to test their knowledge on various subjects. The application leverages HTML, CSS, and JavaScript to deliver a seamless and responsive user experience.
